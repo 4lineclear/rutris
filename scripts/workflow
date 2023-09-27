@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -e "\033[0;32mExecuting Workflow locally\033[0m"
+
+cargo check --workspace --verbose
+cargo build --workspace --verbose
+cargo doc --workspace --verbose
+cargo clippy --workspace --verbose
+
+cargo fmt --check --all --verbose
+
+echo -e "\033[0;32mExecution Complete\033[0m"

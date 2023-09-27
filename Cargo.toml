@@ -1,0 +1,20 @@
+[package]
+name = "rutris-workspace"
+version = "0.1.0"
+authors = ["4lineclear <tamimhakimi21@gmail.com>"]
+edition = "2021"
+
+license = "MIT"
+description = "The top level crate which holds rutris"
+homepage = "https://github.com/4lineclear/rutris/tree/main"
+repository = "https://github.com/4lineclear/rutris/tree/main"
+readme = "README.md"
+keywords = ["workspace"]
+categories = ["Games"]
+exclude = ["scripts"]
+
+[dependencies]
+easy-sgr = { version = "0.1.1", features = ["macro-only"] }
+
+[workspace]
+members = ["rutris-api", "rutris-gui", "rutris-tui"]

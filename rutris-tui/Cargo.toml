@@ -1,0 +1,17 @@
+[package]
+name = "rutris-tui"
+version = "0.1.0"
+authors = ["4lineclear <tamimhakimi21@gmail.com>"]
+edition = "2021"
+
+license = "MIT"
+description = "The TUI implementation of rutris"
+homepage = "https://github.com/4lineclear/rutris/tree/main"
+repository = "https://github.com/4lineclear/rutris/tree/main"
+readme = "../README.md"
+keywords = ["tui"]
+categories = ["Games"]
+
+[dependencies]
+crossterm = "0.27.0"
+tui = { package = "ratatui", version = "0.23.0" }

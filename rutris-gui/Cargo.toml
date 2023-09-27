@@ -1,0 +1,15 @@
+[package]
+name = "rutris-gui"
+version = "0.1.0"
+authors = ["4lineclear <tamimhakimi21@gmail.com>"]
+edition = "2021"
+
+license = "MIT"
+description = "The GUI implementation of rutris"
+homepage = "https://github.com/4lineclear/rutris/tree/main"
+repository = "https://github.com/4lineclear/rutris/tree/main"
+readme = "../README.md"
+keywords = ["gui"]
+categories = ["Games"]
+
+[dependencies]
